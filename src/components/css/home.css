@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+
+/************** Home Folders Page *******************************/
+body {
+    background-color: aliceblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0; 
+    padding: 0;
+    height: 100%; 
+}
+
+.image-button, .home-img-button {
+    border: none; 
+    padding: none; 
+    background: none; 
+    outline: none; 
+    cursor: pointer;
+}
+
+.image-button img {
+    width: 8rem; 
+    height: 8rem;
+    padding: none;
+}
+
+.home-img-button img {
+    width: 2rem; 
+    height: 2rem;
+    padding: none;
+}
+
+#footer
+{
+    width: 100%; /* Full width */
+    height: 3rem;
+    background-color: rgb(74, 74, 219); 
+    color: white; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    opacity: 80%;
+    font-family: "Trirong", serif;
+}
+
+.folder-title
+{
+    font-family: "Trirong", serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#LinkedIn_Icon, #LI_Text
+{
+    padding-left: 1.5rem;
+}
+
+#Education_Icon, #Projects_Icon, #Email_Icon,
+ #Education_Text, #Projects_Text, #Email_Text
+{
+    padding-left: 1rem;
+}
